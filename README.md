@@ -49,8 +49,8 @@ CSS
 4 - Compartilhe seu resultado com a comunidade :)<br>
 
 # Requisitos:
-- Sua página deve se parecer o mais próximo possível ao modelo que está disponível na pasta "design"<br>
-- Sua página deve ser responsiva
+-> Sua página deve se parecer o mais próximo possível ao modelo que está disponível na pasta "design"<br>
+-> Sua página deve ser responsiva
 
 # Dicas
 ## Cores:
@@ -64,10 +64,11 @@ As imagens utilizadas estão disponíveis na pasta `./assets`<br>
 Para os ícones, é recomendada a utilização de uma biblioteca, como o Font Awesome
 
 ## Tipo de fonte:
-- Roboto
+-> Roboto
 
 # Compartilhe!
 Inicie seu projeto utilizando esse template no seu github como um repositório público<br>
 Faça um print, gif ou vídeo e compartilhe o resultado no seu Linkedin<br>
 
 Criado por  <a href="https://github.com/Lorenalgm">Lorena</a> :)
+Thanks for visit again :)
