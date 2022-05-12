@@ -1,0 +1,380 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400;1,500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*Inicio da estilização da header*/
+
+header {
+    width: 100%;
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo h1{
+    color: #D6000D;
+    font-style: italic;
+}
+.logo span {
+    color: black;
+}
+
+.navigation {
+    width: 40%;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-list a {
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: black;
+}
+.nav-list a:hover {
+    opacity: 0.7;
+}
+
+.btn-login {
+    background: #D6000D;
+    color: white;
+    font-size: 0.9rem;
+    font-weight: 500;
+    padding: 10px 50px;
+    border-radius: 10px;
+    border: none;
+}
+.btn-login:hover {
+    cursor: pointer;
+}
+
+/*Início da estilização da main*/
+
+main {
+    width: 100%;
+}
+
+main img {
+    width: 250px;
+}
+
+.init-main {
+    width: 50%;
+    margin: 80px auto 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.request p{
+    font-weight: 600;
+}
+.request h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #D6000D;
+}
+.request button {
+    background-color: #D6000D;
+    color: white;
+    font-weight: 500;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 40px;
+}
+.request button:hover {
+    cursor: pointer;
+}
+
+.benefits {
+    width: 50%;
+    margin: 80px auto 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.benefits ul {
+    list-style-image: url("./assets/sinal-certo.png");
+}
+
+.call {
+    width: 50%;
+    margin: 0px auto 80px auto;
+}
+.call p {
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.call input {
+    background-color: lightgray;
+    padding: 10px 0px 10px 20px;
+    border-radius: 10px;
+    border: none;
+    font-size: 1rem;
+    outline: none;
+}
+.call button {
+    background-color: #D6000D;
+    color: white;
+    font-weight: 500;
+    font-size: 1rem;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 40px;
+}
+.call button:hover {
+    cursor: pointer;
+}
+
+.people {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 200px 0px 100px 0px;
+}
+
+.person-one {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: lightgray;
+    border-radius: 10px;
+    padding: 20px;
+    width: 40%;
+}
+.person-one figure {
+    width: 80px;
+    height: 80px;
+    background-color: #D6000D;  
+    border-radius: 50px; 
+}
+.about-person-one p {
+    width: 25vw;
+}
+.about-person-one h2 {
+    margin-top: 10px;
+}
+
+.person-two {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: lightgray;
+    border-radius: 10px;
+    padding: 20px;
+    width: 40%;
+}
+.person-two figure {
+    width: 80px;
+    height: 80px;
+    background-color: #D6000D;  
+    border-radius: 50px; 
+}
+.about-person-two p{
+    width: 25vw;
+}
+.about-person-two h2 {
+    margin-top: 10px;
+}
+
+/*Estilização da footer*/
+footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px 0px;
+}
+
+.codar h2 {
+    font-style: italic;
+    font-weight: 500;
+    font-size: 1.8rem;
+}
+.codar p{
+    font-size: 0.9rem;
+    margin-top: 10px;
+}
+
+.about h3 {
+    font-weight: 600;
+}
+.about p {
+    width: 160px;
+    font-size: 0.9rem;
+    margin-top: 10px;
+}
+
+.contact h3{
+    font-weight: 600;
+}
+.contact p {
+    margin-top: 10px;
+    font-size: 0.9rem;
+}
+
+.social-networks h3 {
+    font-weight: 600;
+}
+.social-networks-list {
+    margin-top: 10px;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+.social-networks-list img{
+    width: 30px;
+}
+
+@media(max-width: 1200px){
+    .init-main {
+        width: 65%;
+    }
+    .benefits {
+        width: 65%;
+    }
+    .call {
+        width: 65%;
+    }
+}
+@media(max-width: 900px){
+    .navigation {
+        width: 50%;
+    }
+    .init-main {
+        width: 80%;
+    }
+    .benefits {
+        width: 80%;
+    }
+    .call {
+        width: 80%;
+    }
+    .person-one {
+        width: 45%;
+    }
+    .person-two {
+        width: 45%;
+    }
+}
+@media(max-width: 750px) {
+    /*header*/
+    header {
+        flex-direction: column;
+        padding-top: 50px;
+    }
+    .logo h1 {
+        font-size: 3rem;
+        margin-bottom: 20px;
+    }
+    .li-button {
+        display: none;
+    }
+    /*main*/
+    .init-main {
+        flex-direction: column;
+        text-align: center;
+        margin-top: 50px;
+    }
+    .request {
+        margin-top: 40px;
+    }
+    .request button {
+        padding: 10px 60px;
+    }
+
+    .benefits {
+        flex-direction: column-reverse;
+        margin-top: 150px;
+    }
+    .benefits ul {
+        height: 200px;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    .call {
+        margin-top: 40px;
+        text-align: center;
+    }
+    .call form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .call input {
+        padding: 15px 0px 15px 25px;
+    }
+    .call button {
+        margin-top: 10px;
+        padding: 15px 40px;
+    }
+    .people {
+        flex-direction: column;
+        align-items: center;
+        margin: 100px 0px 50px 0px;
+    }
+    .person-one {
+        width: 50%;
+    }
+    .person-two {
+        width: 50%;
+        margin-top: 30px;
+    }
+    /*footer*/
+    footer {
+        flex-direction: column;
+        padding: 30px;
+    }
+    .codar {
+        text-align: center;
+    }
+    .codar h2 {
+        font-size: 2.5rem;
+    }
+    .about {
+        margin-top: 20px;
+    }
+    .contact {
+        margin-top: 20px;
+    }
+    .social-networks {
+        margin-top: 20px;
+    }
+    .social-networks-list {
+        width: 30%;
+    }
+}
+
+@media(max-width: 550px) {
+    .navigation {
+        width: 80%;
+    }
+    .person-one {
+        width: 70%;
+    }   
+    .person-two {
+        width: 70%;
+    }
+}
+
+@media(max-width: 400px) {
+    .navigation {
+        width: 90%;
+    }
+    .person-one {
+        width: 90%;
+    }   
+    .person-two {
+        width: 90%;
+    }
+}
